@@ -1,27 +1,34 @@
 /* Style Sheet for resume.html */
 
+@font-face {
+	font-family:'Friz';
+	src:url('friz.ttf');
+}
+
 body {
 	margin-left: 40px;
 	margin-right:40px;
-	background-image: url("space.jpg");
+	background-image: url("wood.jpg");
 	background-attachment: fixed;
+	font-family:'Friz';
 }
 
 h1 {
 	color: hsla(46, 95%, 55%, 1);
 	text-align: center;
+
 }
 
 h2 {
-	color: white;
+	color: hsla(46, 95%, 55%, 1);
 	text-align: justify;
 }
 
 
 h4 {
-	color: white;
+	color: hsla(46, 95%, 55%, 1);
 }
 
 li {
-	color: hsla(97, 95%, 45%, 1);
+	color: white;
 }
