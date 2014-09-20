@@ -5,30 +5,58 @@
 	src:url('friz.ttf');
 }
 
+@font-face {
+	font-family:'Tufts';
+	src:url('rockwell.ttf');
+}
 body {
-	margin-left: 40px;
-	margin-right:40px;
+
 	background-image: url("wood.jpg");
 	background-attachment: fixed;
 	font-family:'Friz';
 }
 
+div {
+	background-color: hsla(360, 95%, 15%, 0.35);
+	width;
+	padding;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom:5px;
+	margin-top:5px;
+	border-style: solid;
+	border-color: hsla(31, 85%, 25%, 0.35);
+	border-size: 40px;
+
+
+}
+
 h1 {
-	color: hsla(46, 95%, 55%, 1);
+	color: hsla(46, 95%, 45%, 0.9);
 	text-align: center;
 
 }
 
 h2 {
-	color: hsla(46, 95%, 55%, 1);
+	color: hsla(46, 95%, 45%, 0.9);
 	text-align: justify;
+}
+
+h3 {
+	color:white;
+	font-family:'Tufts';
 }
 
 
 h4 {
-	color: hsla(46, 95%, 55%, 1);
+	color: hsla(46, 95%, 45%, 0.9);
 }
 
 li {
 	color: white;
+}
+
+p {
+	font-size: 0.8em;
+	color:white;
 }
