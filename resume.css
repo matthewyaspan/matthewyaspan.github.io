@@ -1,0 +1,27 @@
+/* Style Sheet for resume.html */
+
+body {
+	margin-left: 40px;
+	margin-right:40px;
+	background-image: url("space.jpg");
+	background-attachment: fixed;
+}
+
+h1 {
+	color: hsla(46, 95%, 55%, 1);
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	text-align: justify;
+}
+
+
+h4 {
+	color: white;
+}
+
+li {
+	color: hsla(97, 95%, 45%, 1);
+}
