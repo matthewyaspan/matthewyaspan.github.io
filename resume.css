@@ -9,6 +9,12 @@
 	font-family:'Tufts';
 	src:url('rockwell.ttf');
 }
+
+@font-face {
+	font-family:'Alba';
+	src:url('albas.ttf');
+}
+
 body {
 
 	background-image: url("wood.jpg");
@@ -32,13 +38,15 @@ div {
 }
 
 h1 {
+	font-family:'Alba';
 	color: hsla(46, 95%, 45%, 0.9);
 	text-align: center;
+	font-size:3em;
 
 }
 
 h2 {
-	color: hsla(46, 95%, 45%, 0.9);
+	color: hsla(46, 75%, 45%, 0.9);
 	text-align: justify;
 }
 
@@ -54,6 +62,7 @@ h4 {
 
 li {
 	color: white;
+	padding:4px;
 }
 
 p {
