@@ -19,7 +19,6 @@ body {
 
 	background-image: url("images/wood3.jpg");
 	background-attachment: fixed;
-	font-family:'Friz';
 }
 
 div {
@@ -47,6 +46,7 @@ h1 {
 h2 {
 	color: hsla(46, 75%, 45%, 0.9);
 	text-align: justify;
+	font-family:'Friz';
 }
 
 h3 {
@@ -57,11 +57,13 @@ h3 {
 
 h4 {
 	color: hsla(46, 95%, 45%, 0.9);
+	font-family:'Friz';
 }
 
 li {
 	color: white;
 	padding:4px;
+	font-size:1.2em;
 }
 
 p {
