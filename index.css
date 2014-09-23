@@ -2,22 +2,22 @@
 
 @font-face {
 	font-family:'Friz';
-	src:url('friz.ttf');
+	src:url('fonts/friz.ttf');
 }
 
 @font-face {
 	font-family:'Tufts';
-	src:url('rockwell.ttf');
+	src:url('fonts/rockwell.ttf');
 }
 
 @font-face {
 	font-family:'Alba';
-	src:url('albas.ttf');
+	src:url('fonts/albas.ttf');
 }
 
 body {
 
-	background-image: url("wood3.jpg");
+	background-image: url("images/wood3.jpg");
 	background-attachment: fixed;
 }
 
@@ -35,4 +35,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+a {
+	text-align: center;
+	font-size: 2em;
+	font-family:'Alba';
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	display: block;
 }
