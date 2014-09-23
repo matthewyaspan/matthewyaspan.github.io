@@ -1,4 +1,4 @@
-/* Style Sheet for resume.html */
+/* Style Sheet for bio.html */
 
 @font-face {
 	font-family:'Friz';
@@ -22,7 +22,16 @@ body {
 	font-family:'Friz';
 }
 
+h1 {
+	font-family:'Alba';
+	color: hsla(46, 95%, 35%, 1);
+	text-align: center;
+	font-size:3em;
+
+}
+
 div {
+
 	background-color: hsla(360, 95%, 15%, 0.3);
 	padding: 10px;
 	margin-left: 40px;
@@ -33,38 +42,8 @@ div {
 	border-color: hsla(31, 85%, 25%, 0.2);
 	border-width: 10px;
 
-
-}
-
-h1 {
-	font-family:'Alba';
-	color: hsla(46, 95%, 35%, 1);
-	text-align: center;
-	font-size:3em;
-
-}
-
-h2 {
-	color: hsla(46, 75%, 45%, 0.9);
-	text-align: justify;
-}
-
-h3 {
-	color:white;
-	font-family:'Tufts';
-}
-
-
-h4 {
-	color: hsla(46, 95%, 45%, 0.9);
-}
-
-li {
-	color: white;
-	padding:4px;
 }
 
 p {
-	font-size: 0.8em;
-	color:white;
+	color: hsla(46, 95%, 35%, 1);
 }
