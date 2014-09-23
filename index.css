@@ -1,0 +1,37 @@
+/* stylesheet for index.html */
+
+@font-face {
+	font-family:'Friz';
+	src:url('friz.ttf');
+}
+
+@font-face {
+	font-family:'Tufts';
+	src:url('rockwell.ttf');
+}
+
+@font-face {
+	font-family:'Alba';
+	src:url('albas.ttf');
+}
+
+body {
+
+	background-image: url("wood3.jpg");
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family:'Alba';
+	color: hsla(46, 95%, 35%, 1);
+	text-align: center;
+	font-size:3em;
+
+}
+
+img {
+	height: auto;
+    width: auto;
+    display: block;
+    text-align: center;
+}
