@@ -7,12 +7,12 @@
 
 @font-face {
 	font-family:'Tufts';
-	src:url('fonts/rockwell.ttf');
+	src:url('fonts/rockwell.TTF');
 }
 
 @font-face {
 	font-family:'Alba';
-	src:url('fonts/albas.ttf');
+	src:url('fonts/albas.TTF');
 }
 
 body {
